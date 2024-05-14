@@ -1,7 +1,0 @@
-Introduction to Geant4, Release 11.2
-
-2
-
-CONTENTS
-
-

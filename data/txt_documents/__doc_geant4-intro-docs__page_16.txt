@@ -1,7 +1,0 @@
-Introduction to Geant4, Release 11.2
-
-12
-
-Chapter 5. Software Knowledge Required to Use the Geant4 Toolkit
-
-

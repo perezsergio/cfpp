@@ -23,10 +23,9 @@ for pdf in "$@"; do
         result=$(echo "$text" | grep -oPz "$pattern" | tr -d '\0' | tr '\n' ' ')
         if [ -n "$result" ]; then
             echo "---------------------------------------------------------------------------------"
-            echo "Document: $pdf"
-            echo "Page: $i"
-            echo "Context:...${result}..."
-            echo "---------------------------------------------------------------------------------"
+            echo "Document:   $pdf"
+            echo "Page:       $i"
+            echo "Context: ...${result}..."
         fi
 
     done
