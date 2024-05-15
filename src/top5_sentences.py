@@ -23,7 +23,7 @@ def get_top5(search_string: str, sentences: list[str], nlp: English):
         if len(top_5.keys()) > 5:
             del top_5[min(top_5.keys())]
     # Return array with top 5 sentences, ordered from largest similarity
-    return [top_5[sim] for sim in sorted(top_5.keys())]
+    return [top_5[sim] for sim in sorted(top_5.keys(), reverse=True)]
 
 
 def main():
