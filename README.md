@@ -23,9 +23,12 @@ This works well for exact matches, fuzzy searches, and more complex non-exact se
 It even does a solid job responding to some simple questions 
 e.g. `./main.sh 'where can i find the uk housing law'`.
 
-Here is a link to a video demonstrating the tool with the docs of Geant4,
+Here is a video demonstrating the tool with the docs of Geant4,
 a popular particle physics library.
-<iframe width="560" height="315" src="https://youtu.be/5nPKYmoNlvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[cfpp-demo.webm](https://github.com/perezsergio/cfpp/assets/129288111/927a2947-a4b1-4d0e-82d5-c415c0eff817)
+
+
 
 
 ## How it works
